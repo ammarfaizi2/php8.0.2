@@ -10,3 +10,14 @@ libenchant-2-dev \
 libwebp-dev \
 libjpeg-dev \
 libxpm-dev \
+libgmp3-dev \
+libonig-dev \
+postgresql-server-dev-all \
+libpspell-dev \
+libedit-dev \
+libsodium-dev \
+libargon2-dev \
+libtidy-dev \
+libxslt1-dev \
+libexpat1-dev \
+libzip-dev

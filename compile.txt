@@ -47,7 +47,6 @@
 --with-libedit \
 --with-readline \
 --enable-shmop \
---with-snmp \
 --enable-soap \
 --enable-sockets \
 --with-sodium \
@@ -61,5 +60,3 @@
 --with-zip \
 --enable-mysqlnd \
 --with-gnu-ld
-
-
