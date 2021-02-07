@@ -1,0 +1,11 @@
+
+apt-get install -y \
+re2c \
+bison \
+libkrb5-dev \
+libxml2-dev \
+libsqlite3-dev \
+libcurl4-gnutls-dev \
+libenchant-2-dev \
+libwebp-dev \
+libjpeg-dev \

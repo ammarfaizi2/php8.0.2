@@ -1,0 +1,65 @@
+
+./buildconf --force
+
+./configure \
+--config-cache \
+--prefix=/usr/local \
+--enable-fpm \
+--enable-zts \
+--enable-debug \
+--with-valgrind \
+--enable-sigchild \
+--enable-phpdbg \
+--enable-phpdbg-debug \
+--enable-phpdbg-readline \
+--enable-phpdbg-webhelper \
+--enable-embed=shared \
+--with-openssl=shared \
+--with-kerberos=shared \
+--with-system-ciphers=shared \
+--with-external-pcre=shared \
+--with-pcre-jit=shared \
+--with-zlib=shared \
+--enable-bcmath=shared \
+--enable-calendar=shared \
+--with-curl=shared \
+--enable-dba=shared \
+--with-enchant=shared \
+--enable-exif=shared \
+--with-ffi=shared \
+--enable-ftp=shared \
+--enable-gd=shared \
+--with-webp=shared \
+--with-jpeg=shared \
+--with-xpm=shared \
+--with-freetype=shared \
+--enable-gd-jis-conv \
+--with-gettext=shared \
+--with-gmp=shared \
+--with-mhash=shared \
+--enable-mbstring=shared \
+--with-mysqli=shared \
+--enable-pcntl \
+--with-pdo-mysql \
+--with-pdo-pgsql \
+--without-pdo-sqlite \
+--with-pspell \
+--with-libedit \
+--with-readline \
+--enable-shmop \
+--with-snmp \
+--enable-soap \
+--enable-sockets \
+--with-sodium \
+--with-password-argon2 \
+--enable-sysvmsg \
+--enable-sysvsem \
+--enable-sysvshm \
+--with-tidy \
+--with-expat \
+--with-xsl \
+--with-zip \
+--enable-mysqlnd \
+--with-gnu-ld
+
+
