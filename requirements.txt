@@ -1,5 +1,15 @@
 
-apt-get install -y \
+apt-get update -y;
+apt-get install -y --no-install-recommends \
+git gcc g++ cmake make autoconf build-essential vim net-tools openssl curl wget ca-certificates screen;
+
+mkdir /usr/local/share/ca-certificates/cacert.org;
+wget -P /usr/local/share/ca-certificates/cacert.org http://www.cacert.org/certs/root.crt http://www.cacert.org/certs/class3.crt;
+update-ca-certificates;
+git config --global http.sslCAinfo /etc/ssl/certs/ca-certificates.crt;
+git clone https://github.com/ammarfaizi2/php8.0.2.git;
+
+apt-get install -y --no-install-recommends \
 re2c \
 bison \
 libkrb5-dev \
@@ -20,4 +30,4 @@ libargon2-dev \
 libtidy-dev \
 libxslt1-dev \
 libexpat1-dev \
-libzip-dev
+libzip-dev;
