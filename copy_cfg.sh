@@ -11,7 +11,7 @@ chown -v nobody:nogroup \
 	/usr/local/etc/php-fpm.conf \
 	/usr/local/etc/php-fpm.d/www.conf;
 
-chmod -v u=r,go= \
+chmod -v ugo=r \
 	/usr/local/bin/php-cli.ini \
 	/usr/local/lib/php-fpm-fcgi.ini \
 	/usr/local/etc/php-fpm.conf \
