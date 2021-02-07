@@ -9,3 +9,4 @@ libcurl4-gnutls-dev \
 libenchant-2-dev \
 libwebp-dev \
 libjpeg-dev \
+libxpm-dev \
