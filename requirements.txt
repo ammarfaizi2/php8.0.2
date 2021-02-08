@@ -1,7 +1,7 @@
 
 apt-get update -y;
 apt-get install -y --no-install-recommends \
-git gcc g++ cmake make autoconf build-essential vim net-tools openssl curl wget ca-certificates screen;
+git gcc g++ valgrind cmake make autoconf build-essential vim net-tools openssl curl wget ca-certificates screen;
 
 mkdir /usr/local/share/ca-certificates/cacert.org;
 wget -P /usr/local/share/ca-certificates/cacert.org http://www.cacert.org/certs/root.crt http://www.cacert.org/certs/class3.crt;
@@ -30,4 +30,7 @@ libargon2-dev \
 libtidy-dev \
 libxslt1-dev \
 libexpat1-dev \
-libzip-dev;
+libzip-dev \
+libssl-dev \
+libpng-dev \
+libfreetype6-dev;
